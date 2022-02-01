@@ -1,0 +1,22 @@
+<!-- prettier-ignore -->
+<%
+const title = 'トップページ';
+const description="トップページの説明分" ;
+const url="ページのurl or サイトのurl"
+%>
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <%- include components/_head -%>
+  </head>
+  <body>
+    <%- include components/_header -%>
+    <h1 class="p-test">Index Page</h1>
+    <a href="./about.html">About Pageへ</a>
+    <img src="./images/test.svg" />
+    <%- include components/_footer -%>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
