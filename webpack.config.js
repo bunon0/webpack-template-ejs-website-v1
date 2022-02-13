@@ -109,11 +109,6 @@ const app = {
       pngquant: {
         quality: "80-89",
       },
-      gifsicle: {
-        interlaced: false,
-        optimizationLevel: 10,
-        colors: 256,
-      },
       svgo: {},
     }),
     new HtmlBeautifierPlugin(),
